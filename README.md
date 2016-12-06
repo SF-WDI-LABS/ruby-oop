@@ -311,7 +311,7 @@ Notice that this `Car` class is spruced up with a new `@speed` instance variable
 
 ```ruby
 class Car
-  attr_accessor :make, :color
+  attr_accessor :speed, :make, :color
   @@count = 0
 
   def initialize(color, make)
@@ -338,7 +338,7 @@ The syntax for inheritance uses `<` in the class definition.  Our pickup trucks 
 
 ```ruby
 class Pickup < Car
-  attr_accessor :make, :color, :bed_capacity
+  attr_accessor :speed, :make, :color, :bed_capacity
 
   def initialize(color, make, bed_capacity)
     @speed = 0
