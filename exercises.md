@@ -11,7 +11,7 @@
 
 2. A `Person` class, with the following characteristics:
   * Inherits from `Animal`
-  * Automatically sets `@type` to `"person"`
+  * Automatically sets `@kind` to `"person"`
   * Adds 3 new instance vars:
     * age
     * gender
